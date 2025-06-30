@@ -1,4 +1,3 @@
-variable "target_role"                {}
 variable "region"                     { description = "Region to deploy the solution" }
 variable "budget_threshould"          { description = "Threshoulds" }
 variable "budget_name"                { default = "budget" }
